@@ -68,12 +68,3 @@ Como o projeto é estático (não possui back-end ou dependências complexas), v
 
 ---
 *Desenvolvido com dedicação para o curso técnico.*
-```
-
-### Por que este README é bom para o seu trabalho?
-1. **Organização:** Usa badges (aqueles "selos" coloridos no topo) que dão um ar muito mais profissional ao repositório.
-2. **Documentação:** Explica exatamente o que foi feito, as tecnologias e como visualizar o projeto.
-3. **Contexto:** Deixa claro para o professor que é um projeto acadêmico e que você seguiu as regras (identidade visual dos slides).
-4. **Markdown:** Ele já está formatado com negrito, listas e blocos de código, o que fica visualmente excelente no GitHub, GitLab ou ao abrir em um leitor de Markdown (como o próprio VS Code).
-
-Basta copiar, colar no arquivo e o seu projeto estará 100% pronto para entrega!
