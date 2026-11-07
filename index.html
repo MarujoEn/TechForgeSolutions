@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechForge Solutions | Transformação Digital</title>
+    
+    <!-- Fontes do Google (Barlow Condensed e DM Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- Logo recriado em SVG baseado nos slides -->
+                <svg viewBox="0 0 100 100" class="logo-svg" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 5 L90 20 L90 50 C90 75 50 95 50 95 C50 95 10 75 10 50 L10 20 Z" fill="none" stroke="currentColor" stroke-width="6"/>
+                    <path d="M30 35 L70 35 L70 45 L55 45 L55 75 L45 75 L45 45 L30 45 Z" fill="currentColor"/>
+                    <circle cx="35" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="65" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="50" cy="15" r="3" fill="currentColor"/>
+                    <path d="M35 23 L35 30 M65 23 L65 30 M50 18 L50 30" stroke="currentColor" stroke-width="3"/>
+                </svg>
+                <span class="logo-text">TECHFORGE<br><span class="logo-sub">SOLUTIONS</span></span>
+            </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#mvv">Missão, Visão e Valores</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#contato" class="btn-nav">Contato</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SEÇÃO HERO (INÍCIO) -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>TECNOLOGIA PARA SIMPLIFICAR A TRANSFORMAÇÃO DIGITAL.</h1>
+            <p>Desenvolvimento Web, Mobile e Sistemas sob medida para impulsionar o seu negócio.</p>
+            <a href="#sobre" class="btn-primary">Conheça a TechForge</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>SOBRE NÓS</h2>
+                <div class="line"></div>
+            </div>
+            <div class="sobre-content">
+                <p>Fundada por alunos da <strong>ETEC Basildes de Godoy</strong>, a TechForge Solutions nasceu da paixão por código e inovação.</p>
+                <p>Oferecemos soluções modernas, acessíveis e sob medida. Nosso foco é transformar desafios operacionais em soluções digitais intuitivas, seguras e de alto impacto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO MISSÃO, VISÃO E VALORES -->
+    <section id="mvv" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>NOSSOS PILARES</h2>
+                <div class="line"></div>
+            </div>
+            <div class="cards-grid">
+                <!-- Missão -->
+                <div class="card">
+                    <i class="fa-solid fa-bullseye card-icon"></i>
+                    <h3>MISSÃO</h3>
+                    <p>Transformar desafios operacionais de nossos clientes em soluções digitais intuitivas, seguras e de alto impacto.</p>
+                </div>
+                <!-- Visão -->
+                <div class="card">
+                    <i class="fa-solid fa-eye card-icon"></i>
+                    <h3>VISÃO</h3>
+                    <p>Ser referência em desenvolvimento de software corporativo no Estado de São Paulo até 2030, reconhecida pela inovação e excelência técnica.</p>
+                </div>
+                <!-- Valores -->
+                <div class="card">
+                    <i class="fa-solid fa-gem card-icon"></i>
+                    <h3>VALORES</h3>
+                    <ul class="valores-list">
+                        <li>Comprometimento técnico</li>
+                        <li>Inovação contínua</li>
+                        <li>Transparência nas entregas</li>
+                        <li>Trabalho em equipe e Foco no cliente</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO TECNOLOGIAS (Baseado nos slides 23, 24 e 25) -->
+    <section id="tecnologias" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>STACK TECNOLÓGICA</h2>
+                <div class="line"></div>
+                <p>Trabalhamos com as ferramentas mais modernas do mercado.</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                <div class="tech-item"><i class="fa-brands fa-android"></i><span>Android Studio</span></div>
+                <div class="tech-item"><i class="fa-solid fa-code"></i><span>Kotlin</span></div>
+                <div class="tech-item"><i class="fa-solid fa-fire"></i><span>Firebase</span></div>
+                <div class="tech-item"><i class="fa-solid fa-envelope"></i><span>Gmail</span></div>
+                <div class="tech-item"><i class="fa-solid fa-robot"></i><span>ChatGPT</span></div>
+                <div class="tech-item"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ / CONTATO -->
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>TECHFORGE SOLUTIONS</h2>
+                <p>Tecnologia com propósito.</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-envelope"></i> CONTATO@TECHFORGE.COM.BR</p>
+                <p><i class="fa-solid fa-phone"></i> (11) 98765-4321</p>
+                <p><i class="fa-solid fa-file-invoice"></i> CNPJ: 48.392.104/0001-85</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechForge Desenvolvimento de Sistemas LTDA. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
